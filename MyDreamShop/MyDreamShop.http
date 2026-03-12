@@ -1,0 +1,6 @@
+@MyDreamShop_HostAddress = http://localhost:5088
+
+GET {{MyDreamShop_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
