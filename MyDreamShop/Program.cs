@@ -1,4 +1,4 @@
-using Application.AuthUser;
+using Application.Commands.UserRegistration;
 using Application.Common.Interfaces;
 using FluentValidation;
 using Infrastructure;

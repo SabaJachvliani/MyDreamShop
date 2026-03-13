@@ -1,6 +1,6 @@
 ﻿using MediatR;
 
-namespace Application.AuthUser
+namespace Application.Commands.UserRegistration
 {
     public sealed record RegisterUserCommand(
     string UserName,

@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Application.AuthUser
+﻿namespace Application.Commands.UserRegistration
 {
     public interface IPasswordHasherService
     {

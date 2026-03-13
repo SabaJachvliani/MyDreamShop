@@ -12,7 +12,7 @@ namespace Infrastructure.DBContext.MyDreamShopDb
         }
 
         public DbSet<Product> Products => Set<Product>();
-        public DbSet<Review> Reviews => Set<Review>();
+        public DbSet<Review> Reviews => Set<Review>();       
         public DbSet<User> Users => Set<User>();
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)

@@ -3,7 +3,7 @@ using Domain.Entities;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
 
-namespace Application.AuthUser
+namespace Application.Commands.UserRegistration
 {
     public class RegisterUserCommandHandler : IRequestHandler<RegisterUserCommand, int>
     {

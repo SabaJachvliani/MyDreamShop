@@ -1,4 +1,4 @@
-﻿using Application.AuthUser;
+﻿using Application.Commands.UserRegistration;
 using Domain.Entities;
 using Microsoft.AspNetCore.Identity;
 

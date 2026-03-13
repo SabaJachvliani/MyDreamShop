@@ -1,8 +1,8 @@
-﻿using Application.AuthUser;
+﻿using Application.Commands.UserRegistration;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 
-namespace MyDreamShop.Controllers
+namespace MyDreamShop.Controllers.Auth
 {
     [ApiController]
     [Route("api/[controller]")]
